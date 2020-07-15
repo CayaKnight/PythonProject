@@ -46,12 +46,12 @@ def startmenu():
     menu.mainloop(surface)
 def about():
     font =pygame_menu.font.FONT_OPEN_SANS_ITALIC
-    story = "Need something to clean up around the house? Get back at whoever stole your parking spot? Or just a way to get rid of pests? Meet SOUP-RO’s new line of TurretBots. Their soup can shape makes them easy to store and adorable to look at. Each TurretBot is made entirely from the highest quality chrome available and decorated with LED lights.  SOUP-RO’s research team has devoted years of their lives to produce a variety of TurretBots with different functions to suit your needs. TurretBot, your favorite chrome companion"
-    disclaimer = "TurretBot are product of SOUP-RO INC. Do not attempt to duplicate or take apart your Turretbot.\n"\
+    story = "Need something to clean up around the house? Get back at whoever stole your parking spot? Or just a way to get rid of pests? Meet CAMBOT’s new line of TurretBots. Their soup can shape makes them easy to store and adorable to look at. Each TurretBot is made entirely from the highest quality chrome available and decorated with LED lights.  CAMBOT’s research team has devoted years of their lives to produce a variety of TurretBots with different functions to suit your needs. TurretBot, your favorite chrome companion"
+    disclaimer = "TurretBot are product of CAMBOT INC. Do not attempt to duplicate or take apart your Turretbot.\n"\
                  "Do not purchase a TurretBot if you are pregnant or planning on becoming pregnant.\n"\
                  "Children \n\n\n\n\n under age 5 should not be with TurretBot unsupervised. "\
                  "Prolonged contact with TurretBots may include, but are not limited to: "\
-                 "Nausea and vomiting, Diarrhea, Headache, Fever, Dizziness and disorientation, Weakness and fatigue, Hair loss, Infections and,  Low blood pressure. SOUP-RO INC. is not responsible for any sickness resulting from TurretBot."
+                 "Nausea and vomiting, Diarrhea, Headache, Fever, Dizziness and disorientation, Weakness and fatigue, Hair loss, Infections and,  Low blood pressure. CAMBOT INC. is not responsible for any sickness resulting from TurretBot."
     display_info = pygame.display.Info()
     gamedisplay=game.screen
     gamedisplay.fill((0,0,0))
