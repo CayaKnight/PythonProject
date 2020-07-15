@@ -7,7 +7,7 @@ class Toxic(Turret):
 	def __init__(self, screen, square,game_settings):
 		self.shoot_speed = .1;
 		self.health = 15;
-		self.image = pygame.image.load('images/toxic_death.png');
+		self.image = pygame.image.load('images/toxic_idle.png');
 		self.image = pygame.transform.scale(self.image, (105,105));
 		self.screen = screen;
 		self.square = square;
