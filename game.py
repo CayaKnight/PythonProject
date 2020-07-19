@@ -153,7 +153,7 @@ def run_game(screen,game_settings,squares,background,turrets,bullets,icons,robot
 								turrets.remove(turret);
 								game_settings.turrets_lost+=1
 			if game_settings.game_lost == True:
-								gameover.GameOver()
+								#gameover.GameOver()
 			#sets the condtions for level progression
 			#if a certain amount of robots are kill, level increases
 			if game_settings.robots_killed >= 5 and game_settings.wave_num==1:
