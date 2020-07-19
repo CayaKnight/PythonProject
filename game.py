@@ -152,7 +152,7 @@ def run_game(screen,game_settings,squares,background,turrets,bullets,icons,robot
 							elif robot.name =='boss':
 								turrets.remove(turret);
 								game_settings.turrets_lost+=1
-			if game_settings.game_lost == True:
+			#if game_settings.game_lost == True:
 								#gameover.GameOver()
 			#sets the condtions for level progression
 			#if a certain amount of robots are kill, level increases
